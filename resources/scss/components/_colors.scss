@@ -1,0 +1,56 @@
+// Set your brand colors
+
+
+
+a
+{
+  color: inherit;
+}
+
+
+
+.button
+{
+  cursor: pointer;
+  margin: 1em 0;
+  &__login
+  {
+    background-color: $blue;
+    color: $white;
+    &:hover
+    {
+      background-color: $white;
+      color: $blue;
+    }
+  }
+}
+.title
+{
+    &__section
+    {
+        color: $white;
+    }
+}
+
+
+.color--white
+{
+  color: $white;
+}
+.color--red
+{
+  color: $red;
+}
+
+
+
+::selection{
+    background-color: $dark;
+    color: $white;
+  }
+  
+  /* Firefox */
+  ::-moz-selection {
+    background-color: $dark;
+    color: $white;
+  }

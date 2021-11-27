@@ -1,0 +1,79 @@
+/* box, button, container, content, icon, image, notification, other, progress, table, tag, title */
+
+.logo
+{
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+  max-width: 20%;
+}
+.fas,.far
+{
+  height: 15px;
+  width: auto;
+  margin-right: 5px;
+}
+.button
+{
+  &__login
+  {
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 250px;
+    margin-top: 1em;
+    font-weight: bold;
+    
+  }
+  &__exporter
+  {
+    position: absolute;
+    right: 5%;
+    top: -7.5%;
+    background-color: $white;
+    color: $blue;
+    &:hover
+    {
+      background-color: $blue;
+      color: $white;
+    }
+    
+  }
+}
+
+a
+{
+  text-decoration: none;
+}
+
+
+.alert
+{
+  &__erreur
+  {
+    color: $red;
+  }
+}
+//scroll bar
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px $light; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $grey-dark; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $grey-dark; 
+  }
